@@ -72,7 +72,7 @@ WSGI_APPLICATION = 'djangogirls.wsgi.application'
 
 DATABASES = {}
 DATABASES['default'] = dj_database_url.config(
-    default='postgres://postgres:pgsql@localhost:5432/djangogirls')
+    default='postgres://pyhost:q35otGDwVgv0oWY@localhost:5432/djangogirls')
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
