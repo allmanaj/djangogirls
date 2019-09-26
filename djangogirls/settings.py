@@ -191,7 +191,7 @@ if 'TRAVIS' in os.environ:
 elif DEBUG:
     STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static/source')]
 else:
-    STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static/build')]
+    STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static/source')]
 
 
 STATICFILES_FINDERS = (
