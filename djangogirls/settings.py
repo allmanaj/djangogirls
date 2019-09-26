@@ -189,7 +189,7 @@ LOGIN_URL = 'admin:login'
 if 'TRAVIS' in os.environ:
     STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static/source')]
 elif DEBUG:
-    STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+    STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static/source')]
 else:
     STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static/build')]
 
